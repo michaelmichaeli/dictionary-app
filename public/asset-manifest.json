@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/dictionary-app/static/css/main.be882ccf.chunk.css",
+    "main.js": "/dictionary-app/static/js/main.236e53f2.chunk.js",
+    "main.js.map": "/dictionary-app/static/js/main.236e53f2.chunk.js.map",
+    "runtime-main.js": "/dictionary-app/static/js/runtime-main.7379739f.js",
+    "runtime-main.js.map": "/dictionary-app/static/js/runtime-main.7379739f.js.map",
+    "static/js/2.4c8821db.chunk.js": "/dictionary-app/static/js/2.4c8821db.chunk.js",
+    "static/js/2.4c8821db.chunk.js.map": "/dictionary-app/static/js/2.4c8821db.chunk.js.map",
+    "static/js/3.b72ed30a.chunk.js": "/dictionary-app/static/js/3.b72ed30a.chunk.js",
+    "static/js/3.b72ed30a.chunk.js.map": "/dictionary-app/static/js/3.b72ed30a.chunk.js.map",
+    "index.html": "/dictionary-app/index.html",
+    "static/css/main.be882ccf.chunk.css.map": "/dictionary-app/static/css/main.be882ccf.chunk.css.map",
+    "static/js/2.4c8821db.chunk.js.LICENSE.txt": "/dictionary-app/static/js/2.4c8821db.chunk.js.LICENSE.txt",
+    "static/media/eCommerceSiteSearch.6488d9ee.png": "/dictionary-app/static/media/eCommerceSiteSearch.6488d9ee.png",
+    "static/media/facebook.4e0e81d6.svg": "/dictionary-app/static/media/facebook.4e0e81d6.svg",
+    "static/media/info.3dba0b87.svg": "/dictionary-app/static/media/info.3dba0b87.svg",
+    "static/media/instagram.214778e7.svg": "/dictionary-app/static/media/instagram.214778e7.svg",
+    "static/media/keys.3ef206a5.svg": "/dictionary-app/static/media/keys.3ef206a5.svg",
+    "static/media/pie-chart.bff4932c.svg": "/dictionary-app/static/media/pie-chart.bff4932c.svg",
+    "static/media/twitter.cb2a3a09.svg": "/dictionary-app/static/media/twitter.cb2a3a09.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7379739f.js",
+    "static/js/2.4c8821db.chunk.js",
+    "static/css/main.be882ccf.chunk.css",
+    "static/js/main.236e53f2.chunk.js"
+  ]
+}
