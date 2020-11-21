@@ -17,8 +17,6 @@ const App = observer(function App() {
 
     const { wordsStore } = useRootStore()
 
-    //   console.log(wordsStore.words);
-
     return <div className="app-container">
         <nav>
             <p className="logo">🕮DictionaryApp</p>
@@ -36,7 +34,7 @@ const App = observer(function App() {
                     <NewLetterInput loadWords={wordsStore.loadWords} />
                 </div>
                 <div className="right">
-                    <img src={img} className="img" />
+                    <img src={img} className="img"  alt="" />
                 </div>
             </section>
         </header>
@@ -95,9 +93,9 @@ const App = observer(function App() {
             <p>🕮DictionaryApp</p>
             <p>© CoffeeRights Michael Michaeli 2020</p>
             <div>
-                <img src={facebookIcon} />
-                <img src={twitterIcon} />
-                <img src={instagramIcon} />
+                <img src={facebookIcon}  alt="" />
+                <img src={twitterIcon}  alt="" />
+                <img src={instagramIcon}  alt="" />
             </div>
         </footer>
     </div>

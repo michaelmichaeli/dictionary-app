@@ -4,11 +4,9 @@ import { getWordsStartCount, getWordsEndCount, getAppearCount, getRepeatCount, g
 export class WordsStore {
     @observable words: any
 
-    /* THIS WAS WHAT WAS MISSING */
     constructor() {
         makeObservable(this)
     }
-    /* END OF MISSING STUFF */
 
     @action
     loadWords = async(letter: string) => {

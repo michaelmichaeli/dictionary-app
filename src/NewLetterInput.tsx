@@ -11,7 +11,6 @@ export const NewLetterInput: React.FC<NewLetterInputProps> = ({ loadWords }) => 
 
     const updateLetter = (event: React.ChangeEvent<HTMLInputElement>) => {
         setLetter(event.target.value.replace(/[^A-Za-z]/ig, ''))
-        console.log(letter);
     }
 
     const onGetDataClick = () => {
