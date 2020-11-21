@@ -1,5 +1,5 @@
 import React from 'react'
-import { WordsStore } from './WordsStore'
+import { WordsStore } from './store/WordsStore'
 
 type RootStateContextValue = {
     wordsStore: WordsStore

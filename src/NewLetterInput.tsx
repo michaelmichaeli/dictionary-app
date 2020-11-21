@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { WordsStore } from './WordsStore'
+import { WordsStore } from './store/WordsStore'
 
 type NewLetterInputProps = {
     loadWords: WordsStore["loadWords"]

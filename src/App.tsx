@@ -1,5 +1,5 @@
 import { observer } from 'mobx-react-lite';
-import React from 'react';
+import React, { useState } from 'react';
 import { NewLetterInput } from './NewLetterInput';
 import { useRootStore } from './RootStateContext';
 import { PieChart } from 'react-minimal-pie-chart';
@@ -17,13 +17,24 @@ const App = observer(function App() {
 
     const { wordsStore } = useRootStore()
 
+    const [open, setOpen] = useState(false);
+
+    // const constructionsModalStyle = {
+    //     backgroundColor: '#00897B',
+    //     color: '#ffffff',
+    //     width: '70%',
+    //     height: '600px',
+    //     marginTop: '-300px',
+    //     marginLeft: '-35%',
+    // };
+
     return <div className="app-container">
         <nav>
             <p className="logo">DictionaryApp</p>
             <ul>
-                <li><p>About</p></li>
-                <li><p>Resources</p></li>
-                <li><p>Contact</p></li>
+                <li onClick={()=>setOpen(true)}><p>About</p></li>
+                <li onClick={()=>setOpen(true)}><p>Resources</p></li>
+                <li onClick={()=>setOpen(true)}><p>Contact</p></li>
             </ul>
         </nav>
         <header>
@@ -34,7 +45,7 @@ const App = observer(function App() {
                     <NewLetterInput loadWords={wordsStore.loadWords} />
                 </div>
                 <div className="right">
-                    <img src={img} className="img"  alt="" />
+                    <img src={img} className="img" alt="" />
                 </div>
             </section>
         </header>
@@ -67,7 +78,7 @@ const App = observer(function App() {
                                 animationDuration={2000}
                                 animationEasing={'ease-in'}
                                 label={({ dataEntry }) => dataEntry.value}
-                                labelStyle={{fontSize:'5px'}}
+                                labelStyle={{ fontSize: '5px' }}
                                 data={[
                                     { title: `Words start with ${wordsStore.words.letter}`, value: wordsStore.words.start, color: '#cab0eb' },
                                     { title: `Words end with ${wordsStore.words.letter}`, value: wordsStore.words.end, color: '#b0cef5' },
@@ -93,9 +104,9 @@ const App = observer(function App() {
             <p>DictionaryApp</p>
             <p>© CoffeeRights Michael Michaeli 2020</p>
             <div>
-                <img src={facebookIcon}  alt="" />
-                <img src={twitterIcon}  alt="" />
-                <img src={instagramIcon}  alt="" />
+                <img src={facebookIcon} alt="" />
+                <img src={twitterIcon} alt="" />
+                <img src={instagramIcon} alt="" />
             </div>
         </footer>
     </div>

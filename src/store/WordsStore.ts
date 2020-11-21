@@ -1,5 +1,5 @@
 import { observable, action, makeObservable } from 'mobx'
-import { getWordsStartCount, getWordsEndCount, getAppearCount, getRepeatCount, getAllWordsCount } from './api'
+import { getWordsStartCount, getWordsEndCount, getAppearCount, getRepeatCount, getAllWordsCount } from '../api'
 
 export class WordsStore {
     @observable words: any
