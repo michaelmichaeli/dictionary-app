@@ -19,7 +19,7 @@ const App = observer(function App() {
 
     return <div className="app-container">
         <nav>
-            <p className="logo">🕮DictionaryApp</p>
+            <p className="logo">DictionaryApp</p>
             <ul>
                 <li><p>About</p></li>
                 <li><p>Resources</p></li>
@@ -90,7 +90,7 @@ const App = observer(function App() {
 
         </>}
         <footer>
-            <p>🕮DictionaryApp</p>
+            <p>DictionaryApp</p>
             <p>© CoffeeRights Michael Michaeli 2020</p>
             <div>
                 <img src={facebookIcon}  alt="" />
