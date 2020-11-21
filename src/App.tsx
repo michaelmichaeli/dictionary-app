@@ -16,10 +16,8 @@ const App = observer(function App() {
             <p className="logo">⦿DictionaryApp</p>
             <ul>
                 <li><p>About</p></li>
-                <li><p> | </p></li>
-                <li><p>Contact</p></li>
-                <li><p> | </p></li>
                 <li><p>Resources</p></li>
+                <li><p>Contact</p></li>
             </ul>
         </nav>
         <header>
