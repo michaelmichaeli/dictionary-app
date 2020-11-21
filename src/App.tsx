@@ -19,15 +19,6 @@ const App = observer(function App() {
 
     const [open, setOpen] = useState(false);
 
-    // const constructionsModalStyle = {
-    //     backgroundColor: '#00897B',
-    //     color: '#ffffff',
-    //     width: '70%',
-    //     height: '600px',
-    //     marginTop: '-300px',
-    //     marginLeft: '-35%',
-    // };
-
     return <div className="app-container">
         <nav>
             <p className="logo">DictionaryApp</p>

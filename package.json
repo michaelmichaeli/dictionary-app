@@ -2,7 +2,6 @@
   "homepage": "https://michaelmichaeli.github.io/dictionary-app/",
   "name": "dictionary-app",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.1.1",
