@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dictionary-app/static/css/main.3005c6dc.chunk.css",
+    "main.css": "/dictionary-app/static/css/main.bb0151a6.chunk.css",
     "main.js": "/dictionary-app/static/js/main.3f12fd15.chunk.js",
     "main.js.map": "/dictionary-app/static/js/main.3f12fd15.chunk.js.map",
     "runtime-main.js": "/dictionary-app/static/js/runtime-main.7379739f.js",
@@ -10,7 +10,7 @@
     "static/js/3.b72ed30a.chunk.js": "/dictionary-app/static/js/3.b72ed30a.chunk.js",
     "static/js/3.b72ed30a.chunk.js.map": "/dictionary-app/static/js/3.b72ed30a.chunk.js.map",
     "index.html": "/dictionary-app/index.html",
-    "static/css/main.3005c6dc.chunk.css.map": "/dictionary-app/static/css/main.3005c6dc.chunk.css.map",
+    "static/css/main.bb0151a6.chunk.css.map": "/dictionary-app/static/css/main.bb0151a6.chunk.css.map",
     "static/js/2.76a9b084.chunk.js.LICENSE.txt": "/dictionary-app/static/js/2.76a9b084.chunk.js.LICENSE.txt",
     "static/media/eCommerceSiteSearch.6488d9ee.png": "/dictionary-app/static/media/eCommerceSiteSearch.6488d9ee.png",
     "static/media/facebook.4e0e81d6.svg": "/dictionary-app/static/media/facebook.4e0e81d6.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.7379739f.js",
     "static/js/2.76a9b084.chunk.js",
-    "static/css/main.3005c6dc.chunk.css",
+    "static/css/main.bb0151a6.chunk.css",
     "static/js/main.3f12fd15.chunk.js"
   ]
 }
