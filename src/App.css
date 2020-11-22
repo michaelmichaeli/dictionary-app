@@ -16,6 +16,12 @@ body {
   align-items: center;
   color: white;
   
+  /* Unnecessary IMHO, uncomment next line to force hidden behavior */
+  /* overflow-x: hidden !important; */
+  /* Additional tunning proposed by the community */
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .new-letter-container {
