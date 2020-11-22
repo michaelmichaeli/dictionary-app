@@ -65,6 +65,7 @@ header {
   transition: all .25s ease-out;
   line-height: 1;
   text-align: center;
+  outline-style: none;
 }
 
 
@@ -79,6 +80,7 @@ input[name="letter"] {
   text-align: center;
   border: 0;
   box-shadow: 0 0 18px 0 #0000006c;
+  outline-style: none;
 }
 
 
